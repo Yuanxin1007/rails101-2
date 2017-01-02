@@ -1,4 +1,5 @@
-def render_group_description(group)
+module GroupsHelper
+  def render_group_description(group)
     simple_format(group.description)
-  endmodule GroupsHelper
+  end
 end
